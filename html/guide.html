@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+	<link rel="stylesheet" href="../resources/css/common.css">
+
+</head>
+<body>
+    <div class="page-wrap">
+        <div class="guide-page">
+            <h1 class="tit-1">Toss Design Guide</h1>
+            <p>제휴사용 모바일 웹 디자인 가이드</p>
+
+            <section class="page-sec">
+                <div class="tit-wrap">
+                    <h3 class="tit-2-b">Colors</h3>
+                    <p>기본적인 색상 차트입니다. 이곳에 정의된 색상만 사용합니다.</p>
+                </div>
+                <div class="content-wrap">
+                    <dl class="guide-dl">
+                        <div>
+                            <dt>Key color</dt>
+                            <dd>
+                                <div class="hue-bg-m" style="width:100%; height:40px"></div>
+                            </dd>
+                        </div>
+                        <div>
+                            <dt>Sub color</dt>
+                            <dd style="display:flex; justify-content:space-between;">
+                                <div class="hue-bg-s1" style="width:31%; height:40px;"></div>
+                                <div class="hue-bg-s2" style="width:31%; height:40px;"></div>
+                                <div class="hue-bg-s3" style="width:31%; height:40px;"></div>
+                            </dd>
+                        </div>
+                    </dl>
+                </div>
+            </section>
+
+            <section class="page-sec">
+                <div class="tit-wrap">
+                    <h3 class="tit-2-b">Typography</h3>
+                    <p>기본적인 글자 크기와 weight입니다. <br>이곳에 정의된 크기와 weight만 사용합니다.</p>
+                </div>
+                
+                <div class="content-wrap">
+                    <dl class="guide-dl">
+                        <div>
+                            <dt>큰 제목용 - Bold</dt>
+                            <dd>
+                                <p class="tit-1-b">
+                                    Make Finance Casual.<br>
+                                    금융이 쉬워진다.
+                                </p>
+                            </dd>
+                        </div>
+                        <div>
+                            <dt>큰 제목용 - Medium</dt>
+                            <dd>
+                                <p class="tit-1-m">
+                                    Make Finance Casual.<br>
+                                    금융이 쉬워진다.
+                                </p>
+                            </dd>
+                        </div>
+
+                        <div>
+                            <dt>일반적인 제목용 - Bold</dt>
+                            <dd>
+                                <p class="tit-2-b">
+                                    Make Finance Casual.<br>
+                                    금융이 쉬워진다.
+                                </p>
+                            </dd>
+                        </div>
+                        <div>
+                            <dt>일반적인 제목용 - Medium</dt>
+                            <dd>
+                                <p class="tit-2-m">
+                                    Make Finance Casual.<br>
+                                    금융이 쉬워진다.
+                                </p>
+                            </dd>
+                        </div>
+
+                        <div>
+                            <dt>소제목용 - Medium</dt>
+                            <dd>
+                                <p class="tit-3-m">
+                                    Make Finance Casual.<br>
+                                    금융이 쉬워진다.
+                                </p>
+                            </dd>
+                        </div>
+                        <div>
+                            <dt>일반적인 제목용 - Regular</dt>
+                            <dd>
+                                <p class="tit-3">
+                                    Make Finance Casual.<br>
+                                    금융이 쉬워진다.
+                                </p>
+                            </dd>
+                        </div>
+
+                        <div>
+                            <dt>일반적인 본문용 - Medium</dt>
+                            <dd>
+                                <p class="txt-1-m">
+                                    Make Finance Casual.<br>
+                                    금융이 쉬워진다.
+                                </p>
+                            </dd>
+                        </div>
+                        <div>
+                            <dt>일반적인 본문용 - Regular</dt>
+                            <dd>
+                                <p class="txt-1">
+                                    Make Finance Casual.<br>
+                                    금융이 쉬워진다.
+                                </p>
+                            </dd>
+                        </div>
+                        <div>
+                            <dt>작은 본문용 - Medium</dt>
+                            <dd>
+                                <p class="txt-2-m">
+                                    Make Finance Casual.<br>
+                                    금융이 쉬워진다.
+                                </p>
+                            </dd>
+                        </div>
+                        <div>
+                            <dt>작은 본문용 - Regular</dt>
+                            <dd>
+                                <p class="txt-2">
+                                    Make Finance Casual.<br>
+                                    금융이 쉬워진다.
+                                </p>
+                            </dd>
+                        </div>
+                    </dl>
+
+                
+                </div>
+            </section>
+
+            <section class="page-sec">
+                <div class="tit-wrap">
+                    <h3 class="tit-2-b">Layout</h3>
+                    <p>기본적인 레이아웃은 8배수 여백을 사용합니다. <br>더 작은 단위가 필요할 경우 4배수를 사용합니다.</p>
+                </div>
+            </section>
+
+            <section class="page-sec">
+                <div class="tit-wrap">
+                    <h3 class="tit-2-b">Textfield</h3>
+                    <p>사용자로부터 정보를 입력받아야 할 때 사용하는 텍스트필드입니다.</p>
+                </div>
+                <div class="content-wrap">
+                    <fieldset class="field-wrap">
+                        <legend>입력모음</legend>
+
+                        <div class="field-item">
+                            <label class="field-label" for="sampleID-0001">레이블</label>
+                            <div class="field-group">
+                                <input class="field-input" type="text" title="무슨 입력란" id="sampleID-0001"  placeholder="플레이스홀더">
+                            </div>
+                            <div class="field-info">
+                                도움말이 필요할 경우 여기에 표시됩니다.
+                            </div>
+                        </div>
+
+                        <div class="field-item">
+                            <label class="field-label" for="sampleID-0002">레이블</label>
+                            <div class="field-group">
+                                <input class="field-input" type="text" title="무슨 입력란" id="sampleID-0002" placeholder="플레이스홀더" value="입력된 값">
+                                <span class="text">-</span>
+                                <input class="field-input" type="text" title="무슨 입력란" placeholder="플레이스홀더" value="">
+                            </div>
+                            <div class="field-info">
+                                도움말이 필요할 경우 여기에 표시됩니다.
+                            </div>
+                        </div>
+
+                        <div class="field-item error">
+                            <label class="field-label" for="sampleID-10002">레이블</label>
+                            <div class="field-group">
+                                <input class="field-input" type="text" title="무슨 입력란" id="sampleID-1002" placeholder="플레이스홀더" value="입력된 값">
+                            </div>
+                            <div class="field-info">
+                                도움말이 필요할 경우 여기에 표시됩니다.
+                            </div>
+                        </div>
+
+                        <div class="field-item">
+                            <label class="field-label" for="sampleID-0003">레이블</label>
+                            <div class="field-group">
+                                <input class="field-input" type="text" title="무슨 입력란" id="sampleID-0003" placeholder="플레이스홀더" value="입력된 값" disabled>
+                            </div>
+                        </div>
+
+                        <div class="field-item">
+                            <label class="field-label" for="sampleID-0004">레이블</label>
+                            <div class="field-group type-juminnum">
+                                <input class="field-input n1" type="tel" title="무슨 입력란" id="sampleID-0004" placeholder="플레이스홀더">
+                                <span class="text">-</span>
+                                <input class="field-input n2" type="tel" title="무슨 입력란" placeholder="">
+                                <span class="text n3">
+                                    ●●●●●●
+                                </span>
+                            </div>
+                            <div class="field-info">
+                                도움말이 필요할 경우 여기에 표시됩니다.
+                            </div>
+                        </div>
+
+                        <div class="field-item">
+                            <label class="field-label" for="sampleID-0005">레이블</label>
+                            <div class="field-group">
+                                <div class="field-select">
+                                    <select title="" id="sampleID-0005">
+                                        <option>선택</option>
+                                    </select>
+                                    <span class="select-arrow" style="width: 24px; height: 24px;">
+                                        <span class="svg-icon svg-icon--arrow-downwards" style="width: 24px; height: 24px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="line-icon">
+                                            <g fill="none">
+                                            <path d="M24 0v24H0V0z"></path>
+                                            <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-miterlimit="10" d="M17.615 9.259L12 14.874 6.385 9.259"></path>
+                                            </g>
+                                        </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field-info">
+                                도움말이 필요할 경우 여기에 표시됩니다.
+                            </div>
+                        </div>
+
+                        <div class="field-item">
+                            <label class="field-label" for="sampleID-0006">레이블 disabled</label>
+                            <div class="field-group">
+                                <div class="field-select disabled">
+                                    <select title="" id="sampleID-0006" disabled>
+                                        <option>선택</option>
+                                    </select>
+                                    <span class="select-arrow" style="width: 24px; height: 24px;">
+                                        <span class="svg-icon svg-icon--arrow-downwards" style="width: 24px; height: 24px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="line-icon">
+                                            <g fill="none">
+                                            <path d="M24 0v24H0V0z"></path>
+                                            <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-miterlimit="10" d="M17.615 9.259L12 14.874 6.385 9.259"></path>
+                                            </g>
+                                        </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field-item error">
+                            <label class="field-label" for="sampleID-0007">레이블</label>
+                            <div class="field-group">
+                                <div class="field-select">
+                                    <select title="" id="sampleID-0007">
+                                        <option>선택</option>
+                                    </select>
+                                    <span class="select-arrow" style="width: 24px; height: 24px;">
+                                        <span class="svg-icon svg-icon--arrow-downwards" style="width: 24px; height: 24px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="line-icon">
+                                            <g fill="none">
+                                            <path d="M24 0v24H0V0z"></path>
+                                            <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-miterlimit="10" d="M17.615 9.259L12 14.874 6.385 9.259"></path>
+                                            </g>
+                                        </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field-info">
+                                도움말이 필요할 경우 여기에 표시됩니다.
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </div>
+            </section>
+
+            <section class="page-sec">
+                <div class="tit-wrap">
+                    <h3 class="tit-2-b">Radio</h3>
+                    <p>가입양식 등 Textfield와 함께 사용하는 Radio Button입니다. 아래 형태로 표현하기에 효과적이지 않다면 사용하지 않습니다.</p>
+                </div>
+                <div class="content-wrap">
+                    <fieldset class="field-wrap">
+                        <legend>입력모음</legend>
+
+                        <div class="field-item">
+                            <div class="field-label">레이블</div>
+                            <div class="field-group">
+                                <div class="radio-group">
+                                    <input class="field-radio" type="radio" id="sampleID-r001" name="r001" checked>
+                                    <label class="field-radio"  for="sampleID-r001">하나</label>
+
+                                    <input class="field-radio" type="radio" id="sampleID-r002" name="r001">
+                                    <label class="field-radio" for="sampleID-r002">둘</label>
+                                </div>
+                            </div>
+                            <div class="field-info">
+                                도움말이 필요할 경우 여기에 표시됩니다.
+                            </div>
+                        </div>
+
+                        <div class="field-item">
+                            <div class="field-label">레이블</div>
+                            <div class="field-group">
+                                <div class="radio-group">
+                                    <input class="field-radio" type="radio" id="sampleID-r301" name="r301">
+                                    <label class="field-radio"  for="sampleID-r301">하나</label>
+
+                                    <input class="field-radio" type="radio" id="sampleID-r302" name="r301" disabled>
+                                    <label class="field-radio" for="sampleID-r302">둘</label>
+
+                                    <input class="field-radio" type="radio" id="sampleID-r302" name="r301" disabled>
+                                    <label class="field-radio" for="sampleID-r302">셋</label>
+                                </div>
+                            </div>
+                            <div class="field-info">
+                                도움말이 필요할 경우 여기에 표시됩니다.
+                            </div>
+                        </div>
+
+                        <div class="field-item">
+                            <div class="field-label">레이블</div>
+                            <div class="field-group">
+                                <div class="radio-group">
+                                    <input class="field-radio" type="radio" id="sampleID-r201" name="r201" checked>
+                                    <label class="field-radio"  for="sampleID-r201">하나</label>
+
+                                    <input class="field-radio" type="radio" id="sampleID-r202" name="r201">
+                                    <label class="field-radio" for="sampleID-r202">둘</label>
+
+                                    <input class="field-radio" type="radio" id="sampleID-r203" name="r201">
+                                    <label class="field-radio" for="sampleID-r203">셋</label>
+
+                                    <input class="field-radio" type="radio" id="sampleID-r204" name="r201">
+                                    <label class="field-radio" for="sampleID-r204">넷</label>
+                                </div>
+                            </div>
+                            <div class="field-info">
+                                도움말이 필요할 경우 여기에 표시됩니다.
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </section>
+
+            <section class="page-sec">
+                <div class="tit-wrap">
+                    <h3 class="tit-2-b">Checkbox</h3>
+                    <p>가입양식 등 Textfield와 함께 사용하는 Radio Button입니다. 아래 형태로 표현하기에 효과적이지 않다면 사용하지 않습니다.</p>
+                </div>
+                <div class="content-wrap">
+                    <fieldset class="field-wrap">
+                        <legend>입력모음</legend>
+
+                        <div class="field-item">
+                            <div class="field-group">
+                                <input class="field-check" type="checkbox" id="sampleID-c001">
+                                <label class="field-check"  for="sampleID-c001">약관에 모두 동의</label>
+
+                            </div>
+                            <div class="field-info">
+                                도움말이 필요할 경우 여기에 표시됩니다.
+                            </div>
+                        </div>
+
+                        
+                    </fieldset>
+                </div>
+            </section>
+            
+            
+        </div>
+    </div>
+</body>
+</html>
