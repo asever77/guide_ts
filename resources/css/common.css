@@ -590,22 +590,22 @@ label.field-check .checkbox__icon{position:absolute; top:0;left:0;}
 
 
 
-.btn-area {
+.btns-area {
     display: block;
 }
-.btn-area.grid-block {
+.btns-area.big-block {
     padding: 0 24px;
 }
-.btn-area.grid-block .btn {
+.btns-area.big-block [class*="btn"] {
     display: block;
     width: 100%;
 }
-.btn-area.grid-full .btn {
+.btns-area.full-width [class*="btn"] {
     display: block;
     width: 100%;
     border-radius: 0;
 }
-.btn {
+[class*="btn-"] {
     display: inline-block;
     vertical-align: middle;
     font-size: 17px;
@@ -615,38 +615,42 @@ label.field-check .checkbox__icon{position:absolute; top:0;left:0;}
     border-radius: 4px;
     text-decoration: none;
 }
-.btn-primary {
+[class*="btn-normal"] {
     background:#3182F6;
     color: #fff;
 }
-.btn-primary:focus,
-.btn-primary:active {
+[class*="btn-normal"]:focus,
+[class*="btn-normal"]:active {
     background: #2460B6;
 }
-.btn-primary:disabled,
-.btn-primary[disabled] {
+[class*="btn-normal"]:disabled,
+[class*="btn-normal"][disabled] {
     background: #C3D6F2;
+    cursor: default;
 }
-.btn-secondary:focus,
-.btn-secondary:active {
+[class*="btn-weak"]:focus,
+[class*="btn-weak"]:active {
     background: #B8D5FC;
 }
-.btn-secondary:disabled,
-.btn-secondary[disabled] {
+[class*="btn-weak"]:disabled,
+[class*="btn-weak"][disabled] {
     color: #9ABDF1;
+    cursor: default;
 }
-.btn-secondary {
+[class*="btn-weak"] {
     background: #E8F3FF;
     color: #1B64DA;
 }
-.btn-large {
+.btn-normal-l,
+.btn-weak-l {
     min-width: 80px;
     padding: 14px 16px 13px 16px;
 }
-.btn-xlarge {
+.btn-normal-xl,
+.btn-weak-xl {
     padding: 18px 16px 18px 16px;
 }
-.btn-fixed-area {
+.btns-fixed-area {
     z-index: 10;
     position: fixed;
     bottom: 0;
@@ -656,19 +660,19 @@ label.field-check .checkbox__icon{position:absolute; top:0;left:0;}
     padding: 34px 20px 20px;
     background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 65%, rgba(255,255,255,0) 90%);
 }
-.btn-fixed-area .btn {
+.btns-fixed-area [class*="btn-"] {
     display: block;
     width: 100%;
 }
-.btn-fixed-area.grid-half:after {
+.btns-fixed-area.grid-half:after {
     display: block;
     clear: both;
     content: "";
 }
-.btn-fixed-area.grid-half .btn {
+.btns-fixed-area.grid-half [class*="btn-"] {
     float: left;
     width: calc(50% - 5.5px);
 }
-.btn-fixed-area.grid-half .btn:last-of-type {
+.btns-fixed-area.grid-half [class*="btn-"]:last-of-type {
     float: right;
 }
