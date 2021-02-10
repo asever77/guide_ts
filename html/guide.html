@@ -442,69 +442,48 @@
 
                     <dl class="guide-dl">
                         <div>
-                            <dt>전체 너비를 차지할 시에는 grid-block 클래스를 추가합니다.</dt>
+                            <dt>btn-normal</dt>
                             <dd>
-                                <div class="btn-area grid-block">
-                                    <button type="button" class="btn btn-primary btn-xlarge"><span>버튼</span></button>
+                                <div class="btns-area">
+                                    <button type="button" class="btn-normal-xl"><span>btn-normal-xl</span></button>
+                                    <button type="button" class="btn-normal-l"><span>btn-normal-l</span></button>
+                                    <button type="button" class="btn-normal"><span>btn-normal</span></button>
+                                </div>
+                                <div class="btns-area">
+                                    <button type="button" disabled class="btn-normal-xl"><span>btn-normal-xl</span></button>
+                                    <button type="button" disabled class="btn-normal-l"><span>btn-normal-l</span></button>
+                                    <button type="button" disabled class="btn-normal"><span>btn-normal</span></button>
                                 </div>
                             </dd>
                         </div>
                         <div>
-                            <dt>키보드 상단에만 사용할 시에는 grid-full 클래스를 추가합니다.</dt>
+                            <dt>btn-weak</dt>
                             <dd>
-                                <div class="btn-area grid-full">
-                                    <button type="button" class="btn btn-primary btn-xlarge"><span>키보드 상단에 붙는 용도의 버튼</span></button>
+                                <div class="btns-area">
+                                    <button type="button" class="btn-weak-xl"><span>btn-weak-xl</span></button>
+                                    <button type="button" class="btn-weak-l"><span>btn-weak-l</span></button>
+                                    <button type="button" class="btn-weak"><span>btn-weak</span></button>
+                                </div>
+                                <div class="btns-area">
+                                    <button type="button" disabled class="btn-weak-xl"><span>btn-weak-xl</span></button>
+                                    <button type="button" disabled class="btn-weak-l"><span>btn-weak-l</span></button>
+                                    <button type="button" disabled class="btn-weak"><span>btn-weak</span></button>
                                 </div>
                             </dd>
                         </div>
                         <div>
-                            <dt>기본적으로는 inline-block의 성질을 가집니다.</dt>
+                            <dt>Full-width : 키보드 상단에만 사용</dt>
                             <dd>
-                                <div class="btn-area">
-                                    <button type="button" class="btn btn-primary"><span>버튼</span></button>
-                                    <button type="button" class="btn btn-secondary btn-large"><span>버튼</span></button>
-                                    <button type="button" class="btn btn-secondary" disabled="disabled"><span>버튼</span></button>
+                                <div class="btns-area full-width">
+                                    <button type="button" class="btn-normal-xl"><span>키보드 상단에 붙는 용도의 버튼</span></button>
                                 </div>
                             </dd>
                         </div>
                         <div>
-                            <dt>사이즈는 Big-block, Large, Tiny(기본값) 총 3가지입니다.</dt>
+                            <dt>Big-block</dt>
                             <dd>
-                                <div class="btn-area">
-                                    <button type="button" class="btn btn-primary btn-xlarge"><span>Big-block (btn-xlarge)</span></button>
-                                    <button type="button" class="btn btn-primary btn-large"><span>Large (btn-large)</span></button>
-                                    <button type="button" class="btn btn-primary"><span>Tiny</span></button>
-                                </div>
-                                <div class="btn-area">
-                                    <button type="button" class="btn btn-secondary btn-xlarge"><span>Big-block (btn-xlarge)</span></button>
-                                    <button type="button" class="btn btn-secondary btn-large"><span>Large (btn-large)</span></button>
-                                    <button type="button" class="btn btn-secondary"><span>Tiny</span></button>
-                                </div>
-                            </dd>
-                        </div>
-                        <div>
-                            <dt>a태그 타입</dt>
-                            <dd>
-                                <div class="btn-area">
-                                    <button type="button" class="btn btn-primary btn-xlarge"><span>Big-block (btn-xlarge)</span></button>
-                                    <button type="button" class="btn btn-primary btn-large"><span>Large (btn-large)</span></button>
-                                    <button type="button" class="btn btn-primary"><span>Tiny</span></button>
-                                </div>
-                                <div class="btn-area">
-                                    <button type="button" class="btn btn-secondary btn-xlarge"><span>Big-block (btn-xlarge)</span></button>
-                                    <button type="button" class="btn btn-secondary btn-large"><span>Large (btn-large)</span></button>
-                                    <button type="button" class="btn btn-secondary"><span>Tiny</span></button>
-                                </div>
-                            </dd>
-                        </div>
-                        <div>
-                            <dt>disabled 상태 시, disabled 속성을 추가합니다. (a태그 동일)</dt>
-                            <dd>
-                                <div class="btn-area">
-                                    <button type="button" disabled="disabled" class="btn btn-primary"><span>Tiny</span></button>
-                                    <button type="button" disabled="disabled" class="btn btn-secondary"><span>Tiny</span></button>
-                                    <a href="javascript:void(0);" disabled="disabled" class="btn btn-primary"><span>Tiny</span></a>
-                                    <a href="javascript:void(0);" disabled="disabled" class="btn btn-secondary"><span>Tiny</span></a>
+                                <div class="btns-area big-block">
+                                    <button type="button" class="btn-normal-xl"><span>버튼</span></button>
                                 </div>
                             </dd>
                         </div>
@@ -521,22 +500,20 @@
                 <div class="content-wrap">
                     <dl class="guide-dl">
                         <div>
-                            <dt>기본적으로 btn-fixed-area를 사용합니다.</dt>
+                            <dt>btns-fixed-area</dt>
                             <dd>
-                                <div class="btn-fixed-area" style="position:initial;">
-                                    <button type="button" class="btn btn-primary btn-xlarge"><span>화면 하단 고정 버튼</span></button>
+                                <div class="btns-fixed-area" style="position:initial;">
+                                    <button type="button" class="btn-normal-xl"><span>화면 하단 고정 버튼</span></button>
                                 </div>
-                                <span style="font-size:14px; color:#93939F;">가이드 페이지에서는 position:fixed 대신 position:initial을 적용했습니다.</span>
                             </dd>
                         </div>
                         <div>
-                            <dt>보조버튼과 함께 사용 시, grid-half를 사용합니다.</dt>
+                            <dt>grid-half</dt>
                             <dd>
-                                <div class="btn-fixed-area grid-half" style="position:initial;">
-                                    <button type="button" class="btn btn-secondary btn-xlarge"><span>보조버튼</span></button>
-                                    <button type="button" class="btn btn-primary btn-xlarge"><span>버튼</span></button>
+                                <div class="btns-fixed-area grid-half" style="position:initial;">
+                                    <button type="button" class="btn-weak-xl"><span>보조버튼</span></button>
+                                    <button type="button" class="btn-normal-xl"><span>버튼</span></button>
                                 </div>
-                                <span style="font-size:14px; color:#93939F;">가이드 페이지에서는 position:fixed 대신 position:initial을 적용했습니다.</span>
                             </dd>
                         </div>
                     </dl>
