@@ -71,7 +71,7 @@
 <body>
     <div class="page-win10">
         <div class="wrap">
-            <strong>:(</strong>
+            <strong class="face">:(</strong>
             <h1>PC에 문제가 발생하여 다시 시작해야 합니다. 일부 오류 정보를 수집하고 있습니다. 그런 다음 자동으로 다시 시작합니다.</h1>
 
             <div class="num"><span>0</span>% 완료</div>
@@ -96,6 +96,7 @@
     <script>
         var timer = function () {
             var num = document.querySelector('.num span');
+            var face = document.querySelector('.face');
             var num_text = num.innerText;
 
             var randomNum = function () {
@@ -110,7 +111,10 @@
                     if (num_text < 101) {
                         console.log(num_text);
                         num.innerHTML = num_text;
-                        timer_num = randomNum() * 10;
+                        
+                        timer_num = randomNum() * ( num_text > 65 ? 100 : 10);
+                        
+                        
                         numIncrement();
                     }
                 }, timer_num);
