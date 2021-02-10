@@ -432,7 +432,7 @@ input[type="checkbox"] {opacity:0; filter:alpha(opacity=0); display:inline-block
     color: #747481;
 }
 
-.select-arrow {
+.field-select .arrow {
     position: absolute;
     top: 50%;
     right: 10px;
@@ -521,8 +521,8 @@ label.field-check .checkbox__icon{position:absolute; top:0;left:0;}
 /* .field-item.error .field-input,
 .field-input:focus{transition:padding .2s ease-out, border .2s ease-out;}
 .field-input{transition:padding .0s, border .0s;} */
-.box-line .arrow{position:absolute; transform:rotate(-90deg); right:16px; top:50%;}
-
+.box-line .arrow{position:absolute; transform:rotate(-90deg); right:8px; top:50%; margin-top:-12px; width:24px; height:24px}
+.arrow .svg-icon{display:block; width: 24px; height: 24px;}
 .field-group {
     display: flex;
     align-items: center;
@@ -676,3 +676,11 @@ label.field-check .checkbox__icon{position:absolute; top:0;left:0;}
 .btns-fixed-area.grid-half [class*="btn-"]:last-of-type {
     float: right;
 }
+
+
+
+
+
+
+
+
